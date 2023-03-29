@@ -1,0 +1,11 @@
+/* cambiar el fondo del cuerpo del archivo ejemplo_DOM.html a color verde agua*/
+body{
+    background-color:lightslategray;
+}
+
+li{
+    color: brown;
+}
+.lista1{
+    color: black;
+}

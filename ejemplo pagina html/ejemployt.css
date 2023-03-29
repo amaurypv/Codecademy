@@ -1,0 +1,28 @@
+
+/*para poner un tipo de fuente desde google fonts
+    -ir a la pagina de google fonts. 
+    -seleccionar la fuente deseada
+    -ir hasta abajo de la fuente y seleccionar los tipos 
+    -en la esquina hay un icono que dice selected views
+    -ahi seleccionar donde dice import
+    -copiar solo lo que esta dentro del tipo style
+    -y pegar en la parte de arriba desde donde dice @import
+    -para ejecutar poner font-family: y en donde se copio 
+    el link de import abajo viene otro link para copiar en font family*/
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Unbounded:wght@200;300;400;500&display=swap');
+li{
+    font-family: 'Anton', sans-serif;
+}
+h1{
+    font-family: 'Unbounded', cursive;
+}
+
+body{
+    background-image: url(./city.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    back
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Brown Bear</title> <!-- el titulo es lo que va a llevar en la pestaña-->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<!-- para poner el link de un archivo css fuera de html-->
+<!-- se pone <link href="direccion" rel="stylesheet"> -->
+    <link href="./estilo.css" rel="stylesheet">
+    <script src='main.js'></script>
+</head>
+<body>
+    <!-- si se quiere poner un href que este en la misma carpeta se usa href="./nombredelarchivo"-->
+    <a href="./bases.html" target="_blank"> ir  bases</a>
+    <h1 class="titulo">brown bear</h1> <!-- las div pueden llevar dentro un id para saber de que se esta hablando-->
+        <ul>
+            <li><a href="#Introduction">Introduction</a></li> <!-- cuando quieres enviar a una seccion(id) de la pagina-->
+            <li><a href="#Habitat"> Habitat </a></li> <!--se pone un ancla y en href '#el id de la seeccion'-->
+            <li> <a href="#Media">Media </a></li>
+        </ul>
+    <div id="Introduction"> <!-- las div sirven para poner divisiones para una posterior edicion de la pagina en css-->
+<!--se ponen los colores como css con style="color:red"-->
+        <h2 class="background"> Brown Bear</h2>
+            <p style="color: rgb(54, 22, 215); font-size: 20px;"> The brown bear <em>(Ursus arctos)</em> is native
+                to parts of northern Eurasia and North 
+                America. Its conservation status is 
+                currently<strong> Least Concern.</strong><br><br> There are many  <!--las br sirve para dejar espacio en el texto-->
+                subspecies within the brown bear species, 
+                including the Atlas bear and the Himalayan 
+                brown bear</p>
+            <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+                More Info</a> <!-- para poner una direccion primero se pone una ancla y dentro del tag de entrada href="pagina" -->
+        <h3 class="tipos"> Species</h3>     <!-- si se quiere abrir en una nueva ventana target='_blank'-->
+                <ul class="especie">  <!-- las listas ul solo llevan bulets-->
+                    <li>Arctos</li> <!-- para que una lista funcione debe de llenar <li>-->
+                    <li>Collarus</li>
+                    <li>Horribilis</li>
+                    <li>Nelsoni (extinct)</li>
+                </ul>
+        <!--se pueden poner diferentes clases a un elemento-->
+        <!--aqui se pusieron dos clases mayusculas y azul-->
+        <div class="mayusculas">
+        <h3> Features</h3>
+            <p>rown bears are not always completely brown.
+            Some can be reddish or yellowish. They have
+            very large, curved claws and huge paws. 
+            ale brown bears are often 30% larger than 
+            female brown bears. They can range from 5 feet 
+            to 9 feet from head to toe</p>
+        </div>
+    </div>
+    <div id="Habitat">
+        <h2 class="background" id="cursiva"> Habitat</h2>
+        <h3> Countries with Large Brown Bear Populations</h3>
+            <ol>
+                <li>Russia</li>
+                <li>United States</li>
+                <li>Canada</li>
+            </ol>
+        <h3>Countries with Small Brown Bear Populations</h3>
+        <p>Some countries with smaller brown bear populations
+            include Armenia, Belarus, Bulgaria, China, Finland, 
+            France, Greece, India, Japan, Nepal, Poland, Romania,
+            Slovenia, Turkmenistan, and Uzbekistan. </p>
+    </div>
+    <div id="Media">
+        <h2 class="background"> Media</h2>
+        <!-- para poner imagen se pone tag <img src="pagina"/> sin cerrar-->
+        <!-- alt="nombre de la imagen" sirve para poner nombre en la imagen y sea mas facil de encontrar -->
+        <!--se puede hacer que la imagen sea un hyper text poniendo de ancla la pagina y en lugar de texto la imagen-->
+            <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"><img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="bear"></a>
+            <!-- en video se puede poner solo la palabra controls para poner controles sobre el video-->
+            <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>
+        video not suported
+    </video> <br>
+    <a href="www.google.com">ir a google</a>
+        </div>
+    <div id="final">
+        <!-- para ir de una pagina a otra que se encuentra en la misma carpeta-->
+        <a href="./pagina 2 .html"> <h4>ir a pagina 2 </h4></a>
+    </div>
+</body>
+</html>

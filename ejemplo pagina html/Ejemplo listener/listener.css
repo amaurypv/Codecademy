@@ -1,0 +1,63 @@
+#container{
+    display: block;
+}
+#read{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#more-info{
+    display: none;  /*para ocultar un parrafo*/
+}
+#codey{
+    display: none;
+    width: 200px;
+    margin: 0 auto;
+}
+#ocultar{
+    display: none;
+}
+#esconder{
+    display: none;
+}
+#mensajesuerte{
+    text-align: center;
+    margin-top: 64;
+
+}
+#botonsuerte{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+li, #list-item-one, #list-item-two , #list-item-three, #list-item-four, #list-item-five{
+    width: 400px;
+    height: 17px;
+    list-style: none;
+    background-color: #141c3a;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    padding: 17px 0px;
+    color: #efd9ca;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Nunito';
+}
+#reset-button{
+    width: 400px;
+    height: 50px;
+    background: #fd4d3c;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    padding: 17px 0px;
+    color: #141c3a;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+    font-family: 'Nunito';
+  }

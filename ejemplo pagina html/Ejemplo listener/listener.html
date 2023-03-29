@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ejemplo de listener</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./listener.css'>
+</head>
+<body>
+    <section id="container">
+        <p id="info">JavaScript is the programming language of the web. You can use it to add dynamic behavior and store information.</p>
+        <button id="read">Read more</button>
+        <p id="more-info">JavaScript can also handle 
+            requests and responses on a website. It's a great language to master for front-end and back-end web development.
+        </p> <!--este parrafo no aparece inicialmente en la pagina porque en css se tiene como display:none-->
+        <br>
+        <br>
+        <button id="ocultar">ocultar info</button>
+    </section>
+    <div id="imagen">
+        <br>
+        <button id="aparece">click aqui</button>
+        <br>
+        <img src="https://content.codecademy.com/courses/javascript-dom-events/Margot_medal.svg" id='codey'>
+        <br>
+        <button id="esconder">esconder</button>
+    </div>
+    <div id="remove">
+        <!--se va a poner un mensaje que adivine la suerte-->
+        <h2 id="mensajesuerte">Tu suerte esta aqui </h2>
+        <button id="botonsuerte">Click aqui para ver tu fortuna </button>
+    </div>
+    <section id='container'>
+        <ul>
+            <li id='list-item-one'>The mouse must pass over to increase the box width</li>
+            <li id='list-item-two'>Release the mouse button to change the color</li>
+            <li id='list-item-three'>The mouse must leave the box to change the text</li>
+            <li id='list-item-four'>Click the mouse to make the fifth box appear</li>
+            <li id='list-item-five'>You found me!</li>
+            <button id='reset-button'>Reset</button>
+        </ul>
+    </section>
+    <script src="./listener.js"></script>
+</body>
+</html>
+
+<!-- hacer que cuando se pulse el boton aparezca el parrafo que contiene el id more-info-->

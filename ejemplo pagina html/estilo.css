@@ -1,0 +1,104 @@
+/*para poner un tipo de fuente desde google fonts
+    -ir a la pagina de google fonts. 
+    -seleccionar la fuente deseada
+    -ir hasta abajo de la fuente y seleccionar los tipos 
+    -en la esquina hay un icono que dice selected views
+    -ahi seleccionar donde dice import
+    -copiar solo lo que esta dentro del tipo style
+    -y pegar en la parte de arriba desde donde dice @import
+    -para ejecutar poner font-family: y en donde se copio 
+    el link de import abajo viene otro link para copiar en font family*/
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Unbounded:wght@200;300;400;500&display=swap');
+
+/*para elegir por tipo parrafo*/
+p{ /*se tiene que poner entre corchetes*/
+    color: crimson; /*para seleccionar color*/
+}
+ul{
+    color: deeppink;
+}
+ /* para poner algun estilo de forma universal se usa * */
+ *{    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+
+ }
+ /* cuando se quiere seleccionar por parrafo dependiendo la clase
+ a la que se haya definido en html ejemplo <p class="habitat">
+ se pone .nombredeclase */ 
+ .habitat{
+    color: aqua;
+ }
+
+/*se pueden poner diferentes clases en un mismo elemento 
+separado por solo el espacio */
+.mayusculas{
+    text-transform: uppercase;
+}
+.azul{
+    color: blue;
+}
+
+/*se pueden poner tambien en id. el id solo sirve para un elemento*/
+#cursiva{ /*se encuentra en la linea 53 en H2 de habitat*/
+    font-family: cursive;
+}
+
+/* se pueden usar tambien con elementos como src o href.
+por ejemplo img[src*="web-101"] aplicara a todas las imagenes que
+como src contengan web-101*/
+a[href="Brown_bear"]{
+    color: aqua;
+}
+/* hay pseudo acciones, son acciones que se hacen en automatico*/
+a:hover{ /*cuando se pasa el cursor por encima de un ancla cambia el color*/
+    color: rgb(221, 63, 5); 
+}
+.background{
+    /* para poner fondo de color de ese parrafo*/
+    background-color: rgb(255, 123, 0); 
+    /*para poner de fondo en lugar de un color una imagen*/
+    background-image: url("https://concepto.de/wp-content/uploads/2019/05/habitat-bosque-osos-e1559155615138.jpg");
+    height: 100px;
+    color: whitesmoke;
+}
+
+
+/* los niveles en css son id, class y tipo*/
+/* se pueden indicar por tipo y clase ejemplo h2.class
+/*cambiar el tipo de letra del titulo de la pagina brown bear*/
+h1.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;  /*cambiar a mayusculas*/
+    font: size 12px; /*cambiar el tamaño de la letra*/
+    font-weight: bold; /*el grosor de la letra*/
+    text-align:center; /*ubicar el texto en la pagina*/ 
+    background-color: black;  /*para poner el fondo de un text0*/
+    opacity: 0.1; /*que tan transparente se quiere el bloque de 0 a 1*/
+}
+
+/*para aplicar a las lineas que estan anidadas por ejemplo 
+las listas se pone la clase seguido por el tipo 
+.class li*/
+/*poner la lista de las especies de osos en color morado
+ya que actualmente se pusieron en color deepink(linea 5)*/
+.especie li{
+    color: rgb(0, 255, 128);
+}
+
+/*se pueden usar las mismas especificaciones para 
+tipos, clases o id diferentes separando por ,
+h4,.titulo cambiaria todas las h4 y la clase titulo*/
+/*cambiar el color de las clases titulo y tipos a goldenrod*/
+.titulo,.tipos{
+    color: goldenrod;
+}
+
+.mayusculas p{
+    color:rgb(153, 51, 127);
+    text-align: justify;
+}
+ /*se puede poner una imagen como fondo con background-image*/
+
+ 

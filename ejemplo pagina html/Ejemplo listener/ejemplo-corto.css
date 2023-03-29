@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(16, 16, 175);
+}
+#titulo{
+    font-weight: 700;
+    font-size: 4rem;
+    color: lightblue;
+}
+#subtitulo{
+    color: lightblue;
+    font-size: larger;
+}
+#texto{
+    color: lightcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,31 @@
+let alcohol=1.19
+let acetona=1.2 
+let cabosilm5=20.85
+let cabosilts610=32.05
+let cabosilts720=31.78
+
+const cotizacion=(costo,utilidad)=>{
+    return costo/(1-(utilidad*.01))
+}
+
+const calcutilidad=(costo,venta)=>{
+    let utilidad=((venta-costo)/venta)
+    return utilidad
+}
+
+console.log(cotizacion(alcohol,22))
+console.log(cotizacion(acetona,15))
+//console.log(calcutilidad(acetona,1.50))
+// const elektrisolaAlcohol=cotizacion(alcohol,30)
+// const elektrisolaAcetona=cotizacion(acetona,30)
+// console.log(elektrisolaAlcohol)
+// console.log(elektrisolaAcetona)
+// const dicapo=cotizacion(acetona,25)
+// console.log(dicapo)
+// const chemicoCab=cotizacion(cabosilm5,20)
+// const chemicoCa2=cotizacion(cabosilts610,20)
+// const chemicoCab3=cotizacion(cabosilts720,20)
+// console.log(chemicoCab,chemicoCa2,chemicoCab3)
+console.log(cotizacion(alcohol,20))
+
+c
