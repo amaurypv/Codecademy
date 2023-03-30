@@ -22,3 +22,6 @@ git checkout rama-a-cambiar
 
 -para cambiar antes del ultimo commit que se hizo 
 -git checkout HEAD archivo-que-se-esta-trabajando
+
+-para regresarse al cambio que se hizo en versiones anteriores. 
+git reset 7numeros-del-commit-sha (se encuentran en la parte derecha de las versiones en la pagina de github)
