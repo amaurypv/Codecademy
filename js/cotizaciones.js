@@ -13,4 +13,4 @@ const calcutilidad=(costo,venta)=>{
     return utilidad*100
 }
 
-console.log(calcutilidad(1.29,1.74))
+console.log(calcutilidad(20.85,26.1))
