@@ -28,3 +28,6 @@ git reset 7numeros-del-commit-sha (se encuentran en la parte derecha de las vers
 -revisar en git status si se hizo el cambio
 -despues se se tiene que poner
 git retore 'nombre del archivo
+
+-para regresarse al cambio que se hizo en versiones anteriores. 
+git reset 7numeros-del-commit-sha (se encuentran en la parte derecha de las versiones en la pagina de github)
