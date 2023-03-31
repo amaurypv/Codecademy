@@ -36,6 +36,7 @@ git reset 7numeros-del-commit-sha (se encuentran en la parte derecha de las vers
 
 -para poner un trabajo en stand by y hacer modificaciones ya sea en otra rama o en un commit anterior, pero sin perder el avance que llevas en el trabajo que has puesto en stand by
 git stash
--este comando hace que se ponga el trabajo en un directorio escondido para poder seguir trabajando en el. 
+-este comando hace que se ponga el trabajo en un directorio escondido para poder seguir trabajando en el, incluso se puede cambiar de rama 
 -para regresar al trabajo y seguir editandolo se pone el comando 
 git stash pop
+
