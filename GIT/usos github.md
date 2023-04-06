@@ -40,3 +40,10 @@ git stash
 -para regresar al trabajo y seguir editandolo se pone el comando 
 git stash pop
 
+-cuando se quiere modificar el ultimo commit, se puede usar -amend. para eso, promero modificamos los cambios que queremos hacer. 
+despues se añade al staged 
+-git add .
+y despues se pone 
+-git commit --amend  
+nos va a pedir el nuevo nombre del commit. pero si se quiere dejar el nombre del anterior commit se pone. 
+-git commit --amend  --no-edit
