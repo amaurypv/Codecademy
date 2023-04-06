@@ -47,3 +47,8 @@ y despues se pone
 -git commit --amend  
 nos va a pedir el nuevo nombre del commit. pero si se quiere dejar el nombre del anterior commit se pone. 
 -git commit --amend  --no-edit
+
+--------------------------------------uso de git en code
+-en la parte izquierda está un icono de git que es donde aparecen todos los archivos con los que se están trabajado. 
+-en la parte inferior izquierda aparece la rama en la que se está trabajando. 
+-si se da un click en la rama aparecen varias opciones como cambiar de rama o crear una nueva rama
