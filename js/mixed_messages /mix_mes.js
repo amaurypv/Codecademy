@@ -10,4 +10,8 @@ let sentences=['The sun is shining brightly and the sky is clear, making for a b
 'Its a perfect day for a picnic, with plenty of sunshine and a gentle breeze to keep things cool']
 
 let nuram=Math.floor(Math.random()*10)
-console.log(nuram)
+const rand=()=>{
+    console.log(sentences[nuram])
+}
+
+rand()
