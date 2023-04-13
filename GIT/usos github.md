@@ -39,3 +39,8 @@ git stash
 -este comando hace que se ponga el trabajo en un directorio escondido para poder seguir trabajando en el. 
 -para regresar al trabajo y seguir editandolo se pone el comando 
 git stash pop
+
+-para ver las diferencias entre versiones primero tienes que hacer git log y ver los 
+7 numeros de la version que quieres comparar que ya se han hecho commit. 
+despues se hace **git diff 7numeros
+y apareceran las diferencias en las ultimas versiones
