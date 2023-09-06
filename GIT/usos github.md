@@ -1,3 +1,6 @@
+- para saber en que rama se encuentra: 
+git status
+
 -para clonar un repositorio se tiene que ir a la pagina de github y copiar la direccion del repositorio
 despues en terminal en la carpeta donde se quiere descargar el repositorio poner el siguiente codigo. 
 git clone direccion-de-la-pagina-a-clonar
@@ -16,6 +19,9 @@ git commit -m 'titulo de los cambios'
 
 -para ver las ramas que se tiene en el repositorio se va a poner un asterisco sobre la rama en la que se está trabajando 
 git branch
+
+-para crear una nueva rama
+git branch nueva_rama
 
 -para cambiar de rama
 git checkout rama-a-cambiar
