@@ -6,7 +6,10 @@ despues en terminal en la carpeta donde se quiere descargar el repositorio poner
 git clone direccion-de-la-pagina-a-clonar
 
 -para agregar modificaciones a un repositorio.
-git add .
+git add 
+
+-para subir los cambios que se hicieron en una rama a la rama principal
+git merge rama_que_no_es_main
 
 -para checar el status de los archivos. 
 git status
