@@ -33,14 +33,6 @@
 // //bracket notation
 // console.log(datos["nombre"]) //debe de ir siempre entre comillas""
 
-//para combinar diferentes objetos se utiliza el spread ...
-const uno={a:1,b:2}
-const dos={c:3,d:4}
-const tres={e:5,f:6}
-//para combinar las 3
-const combinado={...uno,...dos,...tres}
-console.log(combinado) //imprime { a: 1, b: 2, c: 3, d: 4, e: 5, f: 6 }
-
 
 /* metodos en objetos 
 un metodo es una funcion dentro de un objeto como
@@ -96,10 +88,7 @@ var mateo={
 	saludo:saludar,
 }	
 
-//console.log(mateo	.saludo())
+console.log(mateo	.saludo())
 
-//destructuring
-//se toma un objeto y se definen sus llaves 
-const {nombre,apellido}=mateo
-console.log(nombre) //imprime mateo
+
 

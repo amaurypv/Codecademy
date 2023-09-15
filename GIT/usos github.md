@@ -1,22 +1,9 @@
-- para saber en que rama se encuentra: 
-git status
-
 -para clonar un repositorio se tiene que ir a la pagina de github y copiar la direccion del repositorio
 despues en terminal en la carpeta donde se quiere descargar el repositorio poner el siguiente codigo. 
 git clone direccion-de-la-pagina-a-clonar
 
 -para agregar modificaciones a un repositorio.
-git add 
-
--para subir los cambios que se hicieron en una rama a la rama principal
-git merge rama_que_no_es_main
-
-- para eliminar una rama
-git branch -d nombre_rama_eliminar
-
--para agregar los elementos modificados de una rama al main 
-(debe de estar en la carpeta main)
-git merge nombre_rama
+git add .
 
 -para checar el status de los archivos. 
 git status
@@ -29,9 +16,6 @@ git commit -m 'titulo de los cambios'
 
 -para ver las ramas que se tiene en el repositorio se va a poner un asterisco sobre la rama en la que se está trabajando 
 git branch
-
--para crear una nueva rama
-git branch nueva_rama
 
 -para cambiar de rama
 git checkout rama-a-cambiar
@@ -55,8 +39,3 @@ git stash
 -este comando hace que se ponga el trabajo en un directorio escondido para poder seguir trabajando en el. 
 -para regresar al trabajo y seguir editandolo se pone el comando 
 git stash pop
-
--para ver las diferencias entre versiones primero tienes que hacer git log y ver los 
-7 numeros de la version que quieres comparar que ya se han hecho commit. 
-despues se hace **git diff 7numeros
-y apareceran las diferencias en las ultimas versiones

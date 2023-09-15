@@ -1007,3 +1007,6 @@ try{
 }catch(mensaje){
     console.log('hay un error atras') //se va a imprimir esta parte. 
 }
+
+const saludo=22
+saludo=35
