@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Practcia DOM</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' href='./DOM.css'>
-</head>
-<body>
-    <div id="prueba1">
-        <h1>esta es una prueba para trabajar con ODM</h1>
-        <h2 id="colorfondo">cambiar el color del fondo a azul</h2>
-        <ul class="lista">
-            <li class="lista1">punto 1</li>
-            <li>punto 2</li>
-            <li class="lista2">punto 3</li>
-        </ul>
-        <p>modificar este texto que sea color rojo</p>
-    </div>
-    <button>cambia color</button>
-    <p id="quitar">quitar este parrafo</p>
-    
-    <script src="./ejercicioDOM.js"></script> <!--el script de java script siempre se pone al final para que ejecute primero el documento HTML y luego java-->
-</body>
+  <head>
+    <title>ejercicios bases back-end</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="./ejemplo_DOM.css" rel="stylesheet">
+  </head>   
+  <body>
+    <button id="botonbg">click para cambiar color bg</button> 
+    <br>
+    <br>
+    <button id="botonlista">agregar elemento</button>
+    <br>
+    <br>
+    <button id="eliminar">eliminar</button>
+    <ul id="lista">
+        <li>punto 1</li>
+        <li>punto 2</li>
+        <li>punto 3 </li>
+    </ul>
+    <br>
+    <br>
+    <p id="ocultar">Este texto aparece al hacer click en el boton de abajo</p>
+    <p id="botonaparecer">mostrar mas</p>
+    <script src="./ejemplo_DOM.js"></script>
+  </body>
 </html>

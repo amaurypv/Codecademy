@@ -31,7 +31,7 @@ claselista.appendChild(lista)
 //seleccionar el elemento
 pe=document.querySelector('p')
 //para cambiar el color del elemento seleccionado
-pe.style.color='red'
+//pe.style.color='red'
 
 //para generar una accion a un elemento, primero se selecciona el elemento
 //en este caso es un boton usando document.querySelector('elemento')
@@ -46,7 +46,7 @@ const color=()=>{
 boton.onclick=color
 
 let idcolor=document.getElementById('colorfondo')
-idcolor.style.backgroundColor='red'
+idcolor.style.backgroundColor='blue'
 
 let quitar=document.getElementById('quitar')
 padre.removeChild(quitar)
@@ -55,3 +55,15 @@ padre.removeChild(quitar)
 //donde elemento es el elemento antes asginado. 
 //event es el evento al que se quiere agregar el listener, (click)
 // y function es la funcion de lo que se quiere hacer 
+
+//primero se define el elemento
+const parrafo=document.getElementById('cambiarid')
+/*ya que se define ahora se hace una funcion en la que se define que se quiere hacer
+con el elemento que se definió anteriormente*/
+const cambiocolor=()=>{
+    parrafo.style.color='black' //se toma el elemento si se quiere cambiar de color es style
+}
+//
+
+parrafo.style.color='red'
+    

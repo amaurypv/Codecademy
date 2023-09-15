@@ -1,0 +1,9 @@
+body{
+    background-color: ghostwhite;
+}
+
+#ocultar{
+    display: none;
+    background-color: red;
+}
+
